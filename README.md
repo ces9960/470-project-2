@@ -13,7 +13,7 @@ The main idea behind the project was trying to make a musical instrument, but a 
 
 This project uses the p5.js serial library to handle serial input.
 
-Photo: https://github.com/ces9960/470-project-2/blob/main/IMG_1772.JPG
+Photo: 
 
 ## Arduino code
 
