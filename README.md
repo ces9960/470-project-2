@@ -1,11 +1,11 @@
 # 470 project 2
 
 ## Description
-This project consists of 3 buttons, 3 sliding switches, and a potentiometer.
+This project consists of 3 buttons, 3 sliding switches, and a sound sensor.
 
 One button can produce a sine (low) or square (high) wave, another can produce a square (low) or sawtooth (high) wave, and the last can produce a sawtooth (low) or sine (high) wave.
 
-Press/hold the buttons to produce sound, use the slide switches to change which waveform each button produces, and use the potentiometer to determine the pitch of the sound produced.
+Press/hold the buttons to produce sound, use the slide switches to change which waveform each button produces, and use the sound sensor to determine the pitch of the sound produced (louder audio input means higher pitch).
 
 There is a slight delay between when the input is received and the output is heard, but this is most likely due to the serial port being slow.
 
