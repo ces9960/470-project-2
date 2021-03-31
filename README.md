@@ -9,7 +9,7 @@ Press/hold the buttons to produce sound, use the slide switches to change which 
 
 There is a slight delay between when the input is received and the output is heard, but this is most likely due to the serial port being slow.
 
-The main idea behind the project was trying to make a musical instrument, but a really janky and bad one.
+The main idea behind the project was trying to make a musical instrument, but a really janky and bad one that's highly impractical.
 
 This project uses the p5.js serial library to handle serial input.
 
@@ -19,7 +19,7 @@ Photo:
 
 <code>
     
-    const int dialPin = A0;
+    const int analogPin = A0;
     const int buttonPinYellow = 2;
     const int buttonPinRed = 5;
     const int buttonPinWhite = 7;
@@ -49,7 +49,7 @@ Photo:
     }
 
     void loop() {
-        anVal = analogRead(dialPin);
+        anVal = analogRead(analogPin);
 
         buttonYellowState = digitalRead(buttonPinYellow);
         buttonRedState = digitalRead(buttonPinRed);
