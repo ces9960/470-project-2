@@ -16,6 +16,7 @@ This project uses the p5.js serial library to handle serial input.
 # Arduino code
 
 <code>
+    
     const int dialPin = A0;
     const int buttonPinYellow = 2;
     const int buttonPinRed = 5;
@@ -108,6 +109,7 @@ This project uses the p5.js serial library to handle serial input.
 
 # P5 Code
 <code>
+    
     let serial;
     let portName = 'COM3';
     let inputString;
