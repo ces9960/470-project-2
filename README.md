@@ -1,6 +1,6 @@
 # 470 project 2
 
-# Description
+## Description
 This project consists of 3 buttons, 3 sliding switches, and a potentiometer.
 
 One button can produce a sine (low) or square (high) wave, another can produce a square (low) or sawtooth (high) wave, and the last can produce a sawtooth (low) or sine (high) wave.
@@ -13,7 +13,9 @@ The main idea behind the project was trying to make a musical instrument, but a 
 
 This project uses the p5.js serial library to handle serial input.
 
-# Arduino code
+Photo: https://github.com/ces9960/470-project-2/blob/main/IMG_1772.JPG
+
+## Arduino code
 
 <code>
     
@@ -107,7 +109,7 @@ This project uses the p5.js serial library to handle serial input.
     }
 </code>
 
-# P5 Code
+## P5 Code
 <code>
     
     let serial;
